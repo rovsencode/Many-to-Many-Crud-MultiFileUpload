@@ -1,4 +1,6 @@
-﻿namespace FirelloProject.ViewModels
+﻿using FirelloProject.Models;
+
+namespace FirelloProject.ViewModels
 {
     public class ProductCreateVM
     {
@@ -6,5 +8,6 @@
         public double Price { get; set; }
         public int? CategoryId { get; set; }
         public IFormFile[]? Photos { get; set; }
+       
     }
 }

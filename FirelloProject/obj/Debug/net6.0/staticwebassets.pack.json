@@ -541,10 +541,6 @@
       "PackagePath": "staticwebassets\\img\\24d185f9-1042-423d-9e43-139501a7340375617_If-C9gAT66GMRitv8ppcPQ.jpg"
     },
     {
-      "Id": "C:\\Users\\HP\\Desktop\\FirelloProject\\FirelloProject\\wwwroot\\img\\38182be0-0a44-4115-88a7-6893d5ec6cecsekil.png",
-      "PackagePath": "staticwebassets\\img\\38182be0-0a44-4115-88a7-6893d5ec6cecsekil.png"
-    },
-    {
       "Id": "C:\\Users\\HP\\Desktop\\FirelloProject\\FirelloProject\\wwwroot\\img\\4089711c-a8c5-492b-a593-d9339793e254color.png",
       "PackagePath": "staticwebassets\\img\\4089711c-a8c5-492b-a593-d9339793e254color.png"
     },
@@ -573,16 +569,40 @@
       "PackagePath": "staticwebassets\\img\\64c32e02-bedd-4589-9220-217f0e7d448asexsikabinet.jpeg"
     },
     {
+      "Id": "C:\\Users\\HP\\Desktop\\FirelloProject\\FirelloProject\\wwwroot\\img\\6f4a7835-475e-43d8-a701-04e5d3240139code.jpg",
+      "PackagePath": "staticwebassets\\img\\6f4a7835-475e-43d8-a701-04e5d3240139code.jpg"
+    },
+    {
       "Id": "C:\\Users\\HP\\Desktop\\FirelloProject\\FirelloProject\\wwwroot\\img\\7528ad0b-6b78-4ed4-a637-ea50611f9bc7Screenshot 2023-03-04 205606.png",
       "PackagePath": "staticwebassets\\img\\7528ad0b-6b78-4ed4-a637-ea50611f9bc7Screenshot 2023-03-04 205606.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\FirelloProject\\FirelloProject\\wwwroot\\img\\786e5287-21b3-4adb-ab5f-eb4ba8c3d64aFibannoci.png",
+      "PackagePath": "staticwebassets\\img\\786e5287-21b3-4adb-ab5f-eb4ba8c3d64aFibannoci.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\FirelloProject\\FirelloProject\\wwwroot\\img\\789d4924-de76-4e8b-bac4-fb1d05b0bfbasexsikabinet.jpeg",
+      "PackagePath": "staticwebassets\\img\\789d4924-de76-4e8b-bac4-fb1d05b0bfbasexsikabinet.jpeg"
     },
     {
       "Id": "C:\\Users\\HP\\Desktop\\FirelloProject\\FirelloProject\\wwwroot\\img\\78cd7b44-412a-43f0-9f1b-4f39ced4e796sexsikabinet.jpeg",
       "PackagePath": "staticwebassets\\img\\78cd7b44-412a-43f0-9f1b-4f39ced4e796sexsikabinet.jpeg"
     },
     {
+      "Id": "C:\\Users\\HP\\Desktop\\FirelloProject\\FirelloProject\\wwwroot\\img\\7b045691-52f4-47e6-8969-c241589b0f19sekil.png",
+      "PackagePath": "staticwebassets\\img\\7b045691-52f4-47e6-8969-c241589b0f19sekil.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\FirelloProject\\FirelloProject\\wwwroot\\img\\9b9198c9-f309-4a57-b2bc-cf6a3d58234acode.jpg",
+      "PackagePath": "staticwebassets\\img\\9b9198c9-f309-4a57-b2bc-cf6a3d58234acode.jpg"
+    },
+    {
       "Id": "C:\\Users\\HP\\Desktop\\FirelloProject\\FirelloProject\\wwwroot\\img\\a4c3b000-99b1-4338-9fc8-544b3cb747edimga.png",
       "PackagePath": "staticwebassets\\img\\a4c3b000-99b1-4338-9fc8-544b3cb747edimga.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\FirelloProject\\FirelloProject\\wwwroot\\img\\a9b8bcb8-e37d-4d09-93ec-cee44b238c49Fidan-Şirvanli.jpeg",
+      "PackagePath": "staticwebassets\\img\\a9b8bcb8-e37d-4d09-93ec-cee44b238c49Fidan-Şirvanli.jpeg"
     },
     {
       "Id": "C:\\Users\\HP\\Desktop\\FirelloProject\\FirelloProject\\wwwroot\\img\\b2364bf4-23aa-42ad-8e87-d87e3e5ecd52sexsikabinet.jpeg",
@@ -663,10 +683,6 @@
     {
       "Id": "C:\\Users\\HP\\Desktop\\FirelloProject\\FirelloProject\\wwwroot\\img\\h3-slider-background-3.jpg",
       "PackagePath": "staticwebassets\\img\\h3-slider-background-3.jpg"
-    },
-    {
-      "Id": "C:\\Users\\HP\\Desktop\\FirelloProject\\FirelloProject\\wwwroot\\img\\h3-slider-background.jpg",
-      "PackagePath": "staticwebassets\\img\\h3-slider-background.jpg"
     },
     {
       "Id": "C:\\Users\\HP\\Desktop\\FirelloProject\\FirelloProject\\wwwroot\\img\\h3-team-img-1.png",
