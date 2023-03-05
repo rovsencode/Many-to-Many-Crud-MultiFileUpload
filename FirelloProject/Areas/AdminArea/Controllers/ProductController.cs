@@ -27,9 +27,7 @@ namespace FirelloProject.Areas.AdminArea.Controllers
         public IActionResult Create()
         {
 
-            //ViewBag.Categories = new SelectList(_appDbContext.Categories.ToList(), "Id", "Name");
-            ViewBag.Categories = _appDbContext.Categories.ToList();
-          
+            ViewBag.Categories= new SelectList(_appDbContext.Categories.ToList(), "ID", "Name");
             return View();
         }
 

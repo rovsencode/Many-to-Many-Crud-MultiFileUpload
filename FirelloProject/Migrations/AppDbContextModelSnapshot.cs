@@ -44,7 +44,7 @@ namespace FirelloProject.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Bios", (string)null);
+                    b.ToTable("Bios");
                 });
 
             modelBuilder.Entity("FirelloProject.Models.Category", b =>
@@ -56,14 +56,17 @@ namespace FirelloProject.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"), 1L, 1);
 
                     b.Property<string>("Description")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.HasKey("ID");
 
-                    b.ToTable("Categories", (string)null);
+                    b.ToTable("Categories");
                 });
 
             modelBuilder.Entity("FirelloProject.Models.demo.Author", b =>
@@ -84,7 +87,7 @@ namespace FirelloProject.Migrations
 
                     b.HasIndex("SocialPageId");
 
-                    b.ToTable("Author", (string)null);
+                    b.ToTable("Authors");
                 });
 
             modelBuilder.Entity("FirelloProject.Models.demo.Book", b =>
@@ -100,7 +103,7 @@ namespace FirelloProject.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Books", (string)null);
+                    b.ToTable("Books");
                 });
 
             modelBuilder.Entity("FirelloProject.Models.demo.BookAuthor", b =>
@@ -123,7 +126,7 @@ namespace FirelloProject.Migrations
 
                     b.HasIndex("BookId");
 
-                    b.ToTable("BookAuthors", (string)null);
+                    b.ToTable("BookAuthors");
                 });
 
             modelBuilder.Entity("FirelloProject.Models.demo.BookGenre", b =>
@@ -146,7 +149,7 @@ namespace FirelloProject.Migrations
 
                     b.HasIndex("GenreId");
 
-                    b.ToTable("BookGenres", (string)null);
+                    b.ToTable("BookGenres");
                 });
 
             modelBuilder.Entity("FirelloProject.Models.demo.BookImages", b =>
@@ -167,7 +170,7 @@ namespace FirelloProject.Migrations
 
                     b.HasIndex("BookId");
 
-                    b.ToTable("BookImages", (string)null);
+                    b.ToTable("BookImages");
                 });
 
             modelBuilder.Entity("FirelloProject.Models.demo.Genre", b =>
@@ -183,7 +186,7 @@ namespace FirelloProject.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Genres", (string)null);
+                    b.ToTable("Genres");
                 });
 
             modelBuilder.Entity("FirelloProject.Models.demo.SocialPage", b =>
@@ -202,7 +205,7 @@ namespace FirelloProject.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("SocialPage", (string)null);
+                    b.ToTable("SocialPage");
                 });
 
             modelBuilder.Entity("FirelloProject.Models.Product", b =>
@@ -226,7 +229,7 @@ namespace FirelloProject.Migrations
 
                     b.HasIndex("CategoryID");
 
-                    b.ToTable("Products", (string)null);
+                    b.ToTable("Products");
                 });
 
             modelBuilder.Entity("FirelloProject.Models.ProductImage", b =>
@@ -247,7 +250,7 @@ namespace FirelloProject.Migrations
 
                     b.HasIndex("ProductID");
 
-                    b.ToTable("ProductImages", (string)null);
+                    b.ToTable("ProductImages");
                 });
 
             modelBuilder.Entity("FirelloProject.Models.Slider", b =>
@@ -263,7 +266,7 @@ namespace FirelloProject.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Slider", (string)null);
+                    b.ToTable("Slider");
                 });
 
             modelBuilder.Entity("FirelloProject.Models.SliderDetail", b =>
@@ -285,7 +288,7 @@ namespace FirelloProject.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("SliderDetails", (string)null);
+                    b.ToTable("SliderDetails");
                 });
 
             modelBuilder.Entity("FirelloProject.Models.demo.Author", b =>
