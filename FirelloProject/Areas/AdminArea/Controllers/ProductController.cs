@@ -67,5 +67,12 @@ namespace FirelloProject.Areas.AdminArea.Controllers
          
             return RedirectToAction("Index");
         }
+        public IActionResult Detail(int id)
+        {
+            if (id == null) return NotFound();
+            Product product = _appDbContext.Products.Include(p=>p.ProductImages).Include(p=>p.Category).SingleOrDefault(p=>p.ID==id);
+           if(product== null) return NotFound();
+           return View(product);
+        }
     }
 }
